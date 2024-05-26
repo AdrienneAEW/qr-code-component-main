@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+}
+
+main {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 1400px;
+}
+
+.qr-card {
+  display: grid;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+.qr-card figure {
+  margin: 0;
+}
+.qr-card figure img {
+  width: 100%;
+}
+.qr-card p {
+  margin: 0 2rem;
+  text-align: center;
+}
+.qr-card .heading {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.qr-card .body-text {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=qrcard.css.map */

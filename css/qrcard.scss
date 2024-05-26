@@ -1,0 +1,59 @@
+@import "global-styles";
+
+body {
+    background-color: $lightgray;
+    height: 100vh;
+    font-family: $body-font;
+}
+
+p {
+    font-size: $para-size;
+    color: $darkblue;
+}
+
+main {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1400px;
+}
+.qr-card {
+    display: grid;
+    justify-content: center;
+    background-color: $white;
+    width: 322px;
+    @include center-block;
+    padding: 1rem;
+    
+
+    figure {
+        margin: 0;
+        img {
+            width: 100%;
+        }
+    }
+
+    p {
+        margin: 0 2rem;
+        text-align: center;
+    }
+    .heading {
+        font-size: 1.35rem;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+    .body-text {
+        color: $grayishblue;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    a { color: hsl(228, 45%, 44%); }
+    margin-top: .5rem;
+}

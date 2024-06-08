@@ -36,6 +36,7 @@ main {
   text-align: center;
 }
 .qr-card .heading {
+  text-align: center;
   font-size: 1.35rem;
   font-weight: 700;
   margin-top: 1rem;
